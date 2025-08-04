@@ -1,4 +1,4 @@
-# SEM Morphological Analysis Dataset
+# Deep Learning for SEM Morphological Analysis
 
 ## Project Description
 
