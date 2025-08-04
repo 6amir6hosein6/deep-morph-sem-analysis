@@ -4,6 +4,14 @@
 
 This repository contains the implementation of a deep learning-based pipeline for analyzing the morphology of particles in scanning electron microscopy (SEM) images. The pipeline facilitates segmentation of nanoparticles, extraction of particle statistics (such as area and diameter), and quantification of dispersion metrics. The system integrates convolutional neural networks with custom image processing and analysis tools to support scientific investigation of polymer nanocomposites and their interfacial properties.
 
+<br>
+<table>
+  <tr>
+    <td><img src="images/CB4SF1.5_14.png" alt="Image 1" width="100" /></td>
+    <td><img src="images/CB4SF1.5M_14.png" alt="Image 2" width="100" /></td>
+  </tr>
+</table>
+
 ---
 
 ## Dataset
@@ -11,6 +19,20 @@ This repository contains the implementation of a deep learning-based pipeline fo
 ### Dataset Directory
 
 The dataset consists of annotated SEM micrographs for training and evaluation. These images were used for morphological segmentation and statistical analysis of nanocomposite fillers. The dataset is not publicly available. It is intended solely for academic research.
+
+```plaintext
+Dataset/
+├── SEM/
+│   ├── image1.png
+│   ├── image2.png
+│   └── ...
+└── Segmented/
+    ├── image1.png
+    ├── image2.png
+    └── ...
+```
+
+
 
 To access the dataset, please contact:
 **amirhossein.najafi.cs@gmail.com**
@@ -66,6 +88,8 @@ python plot_distribution_from_csv.py -c output.csv
 ```
 
 This script plots a histogram showing the distribution of particle sizes.
+
+<img src="images/distribution-and-poly-three-category2.png" alt="Image 2" width="100" />
 
 ---
 
