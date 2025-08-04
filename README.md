@@ -7,8 +7,8 @@ This repository contains the implementation of a deep learning-based pipeline fo
 <br>
 <table>
   <tr>
-    <td><img src="images/CB4SF1.5_14.png" alt="Image 1" width="100" /></td>
-    <td><img src="images/CB4SF1.5M_14.png" alt="Image 2" width="100" /></td>
+    <td><img src="images/CB4SF1.5_14.png" alt="Image 1" width="300" /></td>
+    <td><img src="images/CB4SF1.5M_14.png" alt="Image 2" width="300" /></td>
   </tr>
 </table>
 
@@ -89,7 +89,7 @@ python plot_distribution_from_csv.py -c output.csv
 
 This script plots a histogram showing the distribution of particle sizes.
 
-<img src="images/distribution-and-poly-three-category2.png" alt="Image 2" width="100" />
+<img src="images/distribution-and-poly-three-category2.png" alt="Image 2" width="300" />
 
 ---
 
