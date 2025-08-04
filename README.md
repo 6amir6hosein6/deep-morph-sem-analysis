@@ -89,7 +89,7 @@ python plot_distribution_from_csv.py -c output.csv
 
 This script plots a histogram showing the distribution of particle sizes.
 
-<img src="images/distribution-and-poly-three-category2.png" alt="Image 2" width="300" />
+<img src="images/distribution-and-poly-three-category2.png" alt="Image 2"/>
 
 ---
 
